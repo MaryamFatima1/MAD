@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+      {
+        "name": "recipeapp",
+        "request": "launch",
+        "type": "dart"
+      },
+      {
+        "name": "recipeapp (profile mode)",
+        "request": "launch",
+        "type": "dart",
+        "flutterMode": "profile"
+      },
+      {
+        "name": "recipeapp (release mode)",
+        "request": "launch",
+        "type": "dart",
+        "flutterMode": "release"
+      }
+    ]
+  }
+  
